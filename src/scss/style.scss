@@ -1,0 +1,9 @@
+@import 'sprite';
+
+body{
+    background: #333;
+    color: #fff;
+    .tree{
+        @include sprite($d-facebook)
+    }
+}

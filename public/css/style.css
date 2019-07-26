@@ -1,0 +1,9 @@
+body {
+  background: #333;
+  color: #fff; }
+  body .tree {
+    background-image: url(../images/sprite/sprite.png);
+    background-position: -92px -281px;
+    height: 36px;
+    width: 36px; }
+
