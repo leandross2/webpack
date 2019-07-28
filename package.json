@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --inline --hot --colors --compress",
-    "dev": "webpack"
+    "build": " webpack --config webpack.prod.js",
+    "dev": "webpack-dev-server --inline  --colors --compress --config webpack.dev.js"
   },
   "keywords": [],
   "author": "",
@@ -15,9 +15,12 @@
     "file-loader": "^4.1.0",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
+    "imagemin-webpack-plugin": "^2.4.2",
     "mini-css-extract-plugin": "^0.8.0",
     "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
     "sass-loader": "^7.1.0",
+    "svg-spritemap-webpack-plugin": "^3.4.0",
     "webpack": "^4.38.0",
     "webpack-cli": "^3.3.6",
     "webpack-dev-server": "^3.7.2",
